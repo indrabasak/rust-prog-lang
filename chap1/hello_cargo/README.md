@@ -37,6 +37,7 @@ authors = ["indra.basak <indra.basak1@gmail.com>"]
 The `package` section contains information about project `name`, `version`, and the
 `author`. The `dependencies` section usually contains a project dependencies.
 Since the `hello_cargo` is a trivial project, it doesn't contain any dependencies.
+In Rust, a libray (apckage of code) is referred as a `crate`.
 
 ### Build and Running a Cargo Project
 To build, execute the following command from the `hello_cargo` directory,
