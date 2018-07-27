@@ -1,3 +1,5 @@
+[![Build Status][travis-badge]][travis-badge-url]
+
 # The Rust Programming Language
 
 ![](./img/rust.jpeg?style=centerme)
@@ -78,3 +80,6 @@ It should spit out a message similar to the message shown below,
 ```
 cargo 1.27.0 (1e95190e5 2018-05-27)
 ```
+
+[travis-badge]: https://travis-ci.org/indrabasak/rust-prog-lang.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/indrabasak/rust-prog-lang/
