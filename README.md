@@ -4,7 +4,7 @@
 
 ![](./img/rust.jpeg?style=centerme)
 
-This project contains examples from the book titled ` The Rust Programming Language`
+This project contains examples from the book titled [The Rust Programming Language](https://doc.rust-lang.org/book/)
 by`Steve Klabnik` and `Carol Nichols`. 
 
 ## Installation on Mac OS
