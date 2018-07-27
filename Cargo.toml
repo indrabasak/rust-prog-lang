@@ -1,0 +1,20 @@
+[package]
+name = "rust_prog_lang"
+version = "0.1.0"
+authors = ["Indra Basak <indra.basak1@gmail.com>"]
+
+[[bin]]
+name = "hello_world"
+path = "chap1/hello_world/main.rs"
+
+[[bin]]
+name = "hello_cargo"
+path = "chap1/hello_cargo/src/main.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "chap2/guessing_game/src/main.rs"
+
+[dependencies]
+
+rand = "0.3.14"
