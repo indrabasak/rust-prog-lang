@@ -1,4 +1,3 @@
-
 fn main() {
 
     // expected f64, found integral variable
@@ -12,14 +11,19 @@ fn main() {
 
     println!("{}", "-----------------");
     print_song();
-
 }
 
+/**
+ * Convert temperatures between Fahrenheit and Celsius.
+*/
 fn fahrenheit_celsius(fahrenheit: f64) -> f64 {
     println!("Fahrenheit to Celsius conversion!");
-    5.0/9.0 * (fahrenheit - 32.0)
+    5.0 / 9.0 * (fahrenheit - 32.0)
 }
 
+/**
+ * Generate the nth Fibonacci number.
+*/
 //fn fibonacci(const n: usize) -> u32 {
 fn fibonacci(n: usize) -> u32 {
     println!("{}th Fibonacci", n);
@@ -33,7 +37,7 @@ fn fibonacci(n: usize) -> u32 {
     let mut index = 0;
 
     if n <= 1 {
-        return fib[n]
+        return fib[n];
     }
 
     while index < n {
@@ -47,10 +51,13 @@ fn fibonacci(n: usize) -> u32 {
     fib[n - 1]
 }
 
+/**
+ * Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage
+ * of the repetition in the song.
+*/
 fn print_song() {
-
     let presents = ["a Partridge in a Pear Tree", "2 Turtle Doves", "3 French Hens",
-    "4 Calling Birds", "5 Gold Rings", "6 Geese a-Laying",
+        "4 Calling Birds", "5 Gold Rings", "6 Geese a-Laying",
         "7 Swans a-Swimming", "8 Maids a-Milking", "9 Ladies Dancing",
         "10 Lords a-Leaping", "11 Pipers Piping", "12 Drummers Drumming"];
 
@@ -58,13 +65,12 @@ fn print_song() {
         println!("On the {} day of Christmas my true love sent to me", x);
         for y in 0..x {
             if y > 0 {
-                //println!("and " + presents[y]);
                 print!("and {}", presents[y]);
             } else {
                 print!("{}", presents[y]);
             }
 
-            if y < x  - 1 {
+            if y < x - 1 {
                 println!("{}", ",")
             }
         }
