@@ -11,7 +11,7 @@ by`Steve Klabnik` and `Carol Nichols`.
 Open a terminal and enter the following command:
 
 ```
-$ curl http://sh.rustup.rs -sSf | sh
+$ curl https://sh.rustup.rs -sSf | sh
 ```
 
 The installation automatically adds Rust to the simple path
