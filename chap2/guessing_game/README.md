@@ -65,3 +65,35 @@ $ cargo update
     Updating registry `https://github.com/rust-lang/crates.io-index`
 
 ```
+
+### Comparing Guess to the Secret Number
+
+#### Compilation Error
+
+```
+   Compiling guessing_game v0.1.0 (file:///Users/indra.basak/Development/examples/rust-prog-lang/chap2/guessing_game)
+error[E0308]: mismatched types
+  --> src/main.rs:32:21
+   |
+32 |     match guess.cmp(&secret_number) {
+   |                     ^^^^^^^^^^^^^^ expected struct `std::string::String`, found integral variable
+   |
+   = note: expected type `&std::string::String`
+              found type `&{integer}`
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0308`.
+error: Could not compile `guessing_game`.
+```
+
+### Allowing Multiple guesses with looping
+
+```rust
+loop {
+        println!("Please input your guess.");
+        //...
+}
+```
+
+### Introduces Match Concept

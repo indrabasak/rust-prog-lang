@@ -15,6 +15,14 @@ path = "chap1/hello_cargo/src/main.rs"
 name = "guessing_game"
 path = "chap2/guessing_game/src/main.rs"
 
+[[bin]]
+name = "variables"
+path = "chap3/variables/src/main.rs"
+
+[[bin]]
+name = "problems3"
+path = "chap3/problems/src/main.rs"
+
 [dependencies]
 
 rand = "0.3.14"
